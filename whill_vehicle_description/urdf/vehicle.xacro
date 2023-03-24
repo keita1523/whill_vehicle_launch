@@ -93,8 +93,7 @@
     </link>
 
 
-    <!-- <joint name="leftWheel" type="continuous"> -->
-    <joint name="leftWheel" type="fixed">
+    <joint name="leftWheel" type="continuous">
         <parent link="base_floor" />
         <child link="left_wheel_link" />
         <origin xyz="-0.3 0.245 0" rpy="-1.57 0 0" />
@@ -124,8 +123,7 @@
         </inertial>
     </link>
 
-    <!-- <joint name="rightWheel" type="continuous"> -->
-    <joint name="rightWheel" type="fixed">
+    <joint name="rightWheel" type="continuous">
         <parent link="base_floor" />
         <child link="right_wheel_link" />
         <origin xyz="-0.3 -0.245 0" rpy="1.57 0 0" />
